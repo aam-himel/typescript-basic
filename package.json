@@ -1,0 +1,21 @@
+{
+  "name": "typescript-basic",
+  "version": "1.0.0",
+  "description": "- [x] Simple Variables\r - [x] Tuple\r - [ ] Union\r - [ ] Enum\r - [ ] Objects\r - [ ] Type Assertion\r - [ ] Functions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "start": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aam-himel/typescript-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aam-himel/typescript-basic/issues"
+  },
+  "homepage": "https://github.com/aam-himel/typescript-basic#readme"
+}

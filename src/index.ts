@@ -10,7 +10,6 @@ let arr: any[] = [1, "bla", false];
 
 // Tuple
 let person: [number, string, boolean] = [1, 'himel', true];
-
 let employee: [number, string][];
 
 employee = [
@@ -42,7 +41,6 @@ enum Direction1 {
 
 console.log(`Direction1.Down`, Direction1.Down)
 
-
 // Objects
 
 const user: {
@@ -67,5 +65,16 @@ const car: Car = {
     cPrice: 3444
 }
 
+// Type assertion
 
+let cId: any = 2;
+let customerId = <number>cId;
+customerId = cId as number
 
+// Functions
+
+function addNumbers(x: number, y: number): number {
+    return x + y;
+}
+
+console.log(`addNumbers(3, 5)`, addNumbers(3, 5));

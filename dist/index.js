@@ -45,3 +45,12 @@ const car = {
     cName: "BMW",
     cPrice: 3444
 };
+// Type assertion
+let cId = 2;
+let customerId = cId;
+customerId = cId;
+// Functions
+function addNumbers(x, y) {
+    return x + y;
+}
+console.log(`addNumbers(3, 5)`, addNumbers(3, 5));
